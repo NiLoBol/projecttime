@@ -17,8 +17,7 @@ export default function Projecttime(props: {
       console.log(getproject[index].task[taskindex].time);
       
       localStorage.setItem("ProJectTime--xld1549831125411>xcp__", JSON.stringify(getproject) )
-       
-    
+
   };
 
   useEffect(() => {
